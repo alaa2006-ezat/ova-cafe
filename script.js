@@ -94,7 +94,6 @@ document.querySelectorAll('.prod-img-wrap').forEach(wrap => {
     modalImg.alt = title;
     modalTitle.textContent = title;
     modalDesc.textContent = wrap.dataset.desc;
-    modalOrder.href = `https://wa.me/201500504366?text=${encodeURIComponent('أهلاً اوفا، حابب أطلب: ' + title)}`;
     prodModal.hidden = false;
   });
 });
